@@ -147,10 +147,10 @@ Requirements are classified by priority:
 | CC-03 | The cart must persist across sessions for logged-in customers | SHOULD |
 | CC-04 | Customers must be able to apply a promotion code at checkout | MUST |
 | CC-05 | The cart must display an itemized price breakdown including applicable discounts | MUST |
-| CC-06 | Checkout must collect delivery address and allow selection from saved addresses | MUST |
+| CC-06 | The checkout process must collect a delivery address and allow selection from saved addresses | MUST |
 | CC-07 | Customers must be redirected to a payment gateway from within the checkout flow | MUST |
-| CC-08 | Customers must receive a confirmation page and email upon successful payment | MUST |
-| CC-09 | Cart must clearly communicate when a requested quantity exceeds available stock | MUST |
+| CC-08 | Customers must be presented with a confirmation page and receive a confirmation email upon successful payment | MUST |
+| CC-09 | The cart must clearly communicate when a requested quantity exceeds available stock | MUST |
 
 ---
 
@@ -309,7 +309,7 @@ Every significant system event must be recorded with a timestamp, the actor resp
 | ID | Requirement |
 |---|---|
 | NFR-12 | The storefront must be fully usable on mobile browsers (responsive design) |
-| NFR-13 | The admin panel must be navigable without technical background |
+| NFR-13 | The admin panel must be easily usable by staff without a technical background |
 | NFR-14 | Error messages presented to customers must be clear and actionable |
 
 ---
