@@ -130,7 +130,7 @@ Gereksinimler önceliğe göre sınıflandırılmıştır:
 | PC-03 | Her ürün zengin metin açıklaması ve yapılandırılmış teknik özellik tablosu desteklemelidir | ZORUNLU |
 | PC-04 | Ürünler birden fazla varyantı desteklemelidir (ör. renk, depolama kapasitesi) | ZORUNLU |
 | PC-05 | Her varyantın kendine ait stok miktarı, fiyatı ve SKU'su olmalıdır | ZORUNLU |
-| PC-06 | Müşteriler ürünleri kategori, marka ve fiyat aralığına göre filtreleyebilmelidir | ZORUNLU |
+| PC-06 | Müşteriler ürünleri kategori, marka, teknik özellik ve fiyat aralığına göre filtreleyebilmelidir | ZORUNLU |
 | PC-07 | Müşteriler ürünleri anahtar kelimeyle arayabilmelidir | ZORUNLU |
 | PC-08 | Ürün listeleri gerçek zamanlı stok durumunu göstermelidir (Stokta Var / Stokta Yok) | ZORUNLU |
 | PC-09 | Yönetici, ürünleri silmeksizin aktif veya pasif duruma alabilmelidir | ZORUNLU |
@@ -192,7 +192,7 @@ Bu, temel bir iş gereksinimidir. Sistem; kod değişikliği veya dağıtım ger
 | PE-08 | Yönetici bir promosyonu birleştirilemez olarak işaretleyebilmelidir (diğer aktif promosyonlarla birleşemez) | ZORUNLU |
 | PE-09 | Müşterinin birden fazla uygun promosyonu olduğunda sistem birleştirme kurallarını doğru biçimde uygulamalıdır | ZORUNLU |
 | PE-10 | Yönetici bir promosyonu maksimum toplam kullanım sayısıyla sınırlayabilmelidir | ÖNERİLEN |
-| PE-11 | Yönetici bir promosyon kodunu belirli bir müşteri hesabıyla kısıtlayabilmelidir | ÖNERİLEN |
+| PE-11 | Yönetici bir promosyon kodunu belirli bir müşteri hesabıyla kısıtlayabilmelidir | ZORUNLU |
 
 **İfade edilebilir olması gereken örnek iş kuralı:**
 > "Elektronik kategorisinde 10.000 TL üzeri tüm siparişlerde %10 indirim, ancak bu promosyon aktif herhangi bir kupon koduyla birleştirilemez."

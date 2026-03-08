@@ -130,7 +130,7 @@ Requirements are classified by priority:
 | PC-03 | Each product must support a rich text description and a structured specification table | MUST |
 | PC-04 | Products must support multiple variants (e.g., color, storage capacity) | MUST |
 | PC-05 | Each variant must have its own stock count, price, and SKU | MUST |
-| PC-06 | Customers must be able to filter products by category, brand, and price range | MUST |
+| PC-06 | Customers must be able to filter products by category, brand, specifications, and price range | MUST |
 | PC-07 | Customers must be able to search products by keyword | MUST |
 | PC-08 | Product listings must display real-time stock status (In Stock / Out of Stock) | MUST |
 | PC-09 | Admin must be able to activate or deactivate products without deleting them | MUST |
@@ -192,7 +192,7 @@ This is a core business requirement. The system must support flexible, rule-base
 | PE-08 | Admin must be able to mark a promotion as non-combinable (cannot stack with other active promotions) | MUST |
 | PE-09 | System must correctly enforce combination rules when a customer has multiple eligible promotions | MUST |
 | PE-10 | Admin must be able to limit a promotion to a maximum number of total uses | SHOULD |
-| PE-11 | Admin must be able to restrict a promotion code to a specific customer account | SHOULD |
+| PE-11 | Admin must be able to restrict a promotion code to a specific customer account | MUST |
 
 **Example business rule that must be expressible:**
 > "10% off all orders over 10.000 TL in the Electronics category, but this promotion cannot be combined with any active voucher code."
